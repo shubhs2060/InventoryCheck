@@ -1,0 +1,2 @@
+module ProductPacksHelper
+end

@@ -1,0 +1,2 @@
+module OrderProductHistoriesHelper
+end

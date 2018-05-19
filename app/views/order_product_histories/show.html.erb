@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @order_product_history.quantity %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @order_product_history.price %>
+</p>
+
+<%= link_to 'Edit', edit_order_product_history_path(@order_product_history) %> |
+<%= link_to 'Back', order_product_histories_path %>
